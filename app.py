@@ -30,7 +30,7 @@ if st.button('Calculate'):
     if(yhat>=60.0):
         st.write(yhat,' % Chance to get into an University good job :sunglasses:')
     elif(yhat>=50.0 and yhat<=60.0):
-        st.write(yhat,' % Chance to get into an University be optimistic :confussed:')
+        st.write(yhat,' % Chance to get into an University be optimistic :cold_sweat:')
     else:
         st.write(yhat,' % Chance to get into an University, work hard for next year :worried:')
 else:
