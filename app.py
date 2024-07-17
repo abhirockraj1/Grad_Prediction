@@ -17,7 +17,7 @@ reS = st.number_input('Enter Research SCORE ', min_value=0.00,max_value=1.00)
 x = np.array([1.0,(greS-316.47)/(11.29**2),(tofelS-107.19)/(6.08**2),(urS-3.11)/(1.14**2),(sopS-3.37)/(0.99**2),(lorS-3.48)/(0.92**2),(gpaS-8.57)/(0.60**2),(reS-0.56)/(0.49**2)])
 x= np.reshape(x,(x.shape[0],1))
 
-th_data = np.loadtxt("theta.txt", delimiter=",",dtype=float)
+th_data = np.loadtxt("weight.txt", delimiter=",",dtype=float)
 th_data = np.reshape(th_data,(1,th_data.shape[0]))
 # print(th_data)
 
